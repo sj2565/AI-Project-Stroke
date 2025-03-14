@@ -44,6 +44,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn tensor
 ```bash
 python3 final.py
 ```
-## 7. 향후 개선할 점
+## 5. 향후 개선할 점
 + MLP(다층 퍼셉트론)모델 이외에 데이터 양이 적어도 학습할 수 있는 최적화된 모델 적용.
 + 설계한 모델을 바탕으로 실제 프로젝트에 활용하여 실용성 증진.
