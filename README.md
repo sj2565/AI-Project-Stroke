@@ -17,63 +17,33 @@
 ## 3. 프로젝트 실행 이미지
 <img width="500" alt="히스토그램" src="https://github.com/user-attachments/assets/a8cdfaa2-d7fc-407f-adae-53f70460bb6f" />
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data Histogram</p> <br><br>
+
+### Scatter Plot
 <img width="330" alt="스캐터플롯1" src="https://github.com/user-attachments/assets/a1a53cba-32b0-47f2-8725-029b13343d32" /> &emsp;&emsp;
-<img width="330" alt="스캐터플롯2" src="https://github.com/user-attachments/assets/610c2a57-857b-4c4e-b996-0a845f35e5c3" /> 
-<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Scatter Plot1&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Scatter Plot2 </p> <br><br>
-<img width="330" alt="스캐터플롯3" src="https://github.com/user-attachments/assets/d5a001f7-79c6-4f6a-a96a-436f09dbd1ad" />
-<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Scatter Plot3 <br><br>
+<img width="330" alt="스캐터플롯2" src="https://github.com/user-attachments/assets/610c2a57-857b-4c4e-b996-0a845f35e5c3" /> <br>
+(gender, age, ever_married, work_type, stroke)&emsp;&emsp;&emsp;&emsp;(hypertension, bmi, smoking_status, stroke) <br><br><br><br><br>
+<img width="330" alt="스캐터플롯3" src="https://github.com/user-attachments/assets/d5a001f7-79c6-4f6a-a96a-436f09dbd1ad" /> <br>
+(heart_disease, residence_type, avg_glucose_level, stroke) <br><br>
 
-<img width="330" alt="상관관계" src="https://github.com/user-attachments/assets/30dfd44f-be11-4f61-9228-3ffd9485f989" /> <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;좌석점유 이미지 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;이상값 좌석 이미지<br><br><br> 
-<img width="800" alt="이상값" src="https://github.com/user-attachments/assets/732a0738-6e32-4dbf-b688-ed0406b4a4d9" /> <br> AI 모델 이상값 탐지 : distance가 1213.4로 측정되어 이상값이라 판단.
+<img width="330" alt="상관관계" src="https://github.com/user-attachments/assets/996c12ce-34c8-4727-9f5b-bc3cc0cea8e7" /> &emsp;&emsp;&emsp;&emsp;
+<img width="330" alt="PCA분석" src="https://github.com/user-attachments/assets/97ac7b8c-64fa-43d8-a46a-0c89955a38d8" /> <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;상관관계 이미지 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PCA 분석 이미지<br><br><br> 
 
+<img width="450" alt="Keras" src="https://github.com/user-attachments/assets/45864f2c-8944-4d6c-ad34-dd68664edd85" /> <br> 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Keras MLP 학습 <br><br><br>
 
+<img width="450" alt="가중치시각화" src="https://github.com/user-attachments/assets/b2fbfed3-7519-4341-929e-c793c11bb074" /> <br> 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Hidden Weight 시각화
 
-
-
-
-
-
-
-
-
-
-
-
-Scatter Plot.
-상관관계.
-PCA 분석.
-Keras MLP 학습.
-Hidden Weight 시각화.
-
-
-## 6. 설치 및 실행
-**C프로그램 컴파일**
-```bash
-# 라즈베리파이에서 컴파일 진행
-gcc -o SubwaySensor SubwaySensor.c -lwiringPi
-```
+## 4. 설치 및 실행
 **Python 라이브러리 설치**
 ```bash
-python3 -m pip install numpy pandas scipy scikit-learn
-
-# pip 설치 안될 시 가상환경을 통해서 설치
-python3 -m venv 설정할 이름
-
-# 가상환경 활성화
-source 설정할 이름/bin/activate
+pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn tensorflow
 ```
-
-**Node 서버 가동 및 실행**
+**Python 실행**
 ```bash
-node SubwayServer
+python3 final.py
 ```
 ## 7. 향후 개선할 점
-+ C -> Node(서버)로 보낼 때 단순 버퍼 형식이 아니라 UART나 TCP/UDP로 활용.
-+ AI 모델 평가를 위해 정확도 및 손실함수를 적용.
-+ 전송 데이터를 문자열 -> 바이너리로 바꿔서 데이터 크기 감소 및 전송 속도 향상.
--------------------------------------------------------------------------------------
-고려해 볼 만한 사항
-+ CRC를 추가하여 비트 검사
-+ 메모리 관리를 위해 직접 동적 할당
-+ Isolation Forest 외에 다른 모델 추가 (Ensemble Learning)
++ MLP(다층 퍼셉트론)모델 이외에 데이터 양이 적어도 학습할 수 있는 최적화된 모델 적용.
++ 설계한 모델을 바탕으로 실제 프로젝트에 활용하여 실용성 증진.
