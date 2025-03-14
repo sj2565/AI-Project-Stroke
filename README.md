@@ -15,10 +15,13 @@
 **IDE** : Python3 IDLE, PyCharm <br>
 
 ## 3. 프로젝트 실행 이미지
-<img width="500" alt="히스토그램" src="https://github.com/user-attachments/assets/a8cdfaa2-d7fc-407f-adae-53f70460bb6f" /><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Data Histogram</p> <br><br>
-<img width="330" alt="스캐터플롯1" src="https://github.com/user-attachments/assets/a1a53cba-32b0-47f2-8725-029b13343d32" />&nbsp;
-<img width="330" alt="스캐터플롯2" src="https://github.com/user-attachments/assets/610c2a57-857b-4c4e-b996-0a845f35e5c3" />&nbsp;
-<img width="330" alt="스캐터플롯3" src="https://github.com/user-attachments/assets/d5a001f7-79c6-4f6a-a96a-436f09dbd1ad" />&nbsp;
+<img width="500" alt="히스토그램" src="https://github.com/user-attachments/assets/a8cdfaa2-d7fc-407f-adae-53f70460bb6f" />
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data Histogram</p> <br><br>
+<img width="330" alt="스캐터플롯1" src="https://github.com/user-attachments/assets/a1a53cba-32b0-47f2-8725-029b13343d32" /> &emsp;&emsp;
+<img width="330" alt="스캐터플롯2" src="https://github.com/user-attachments/assets/610c2a57-857b-4c4e-b996-0a845f35e5c3" /> 
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Scatter Plot1&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Scatter Plot2 </p> <br><br>
+<img width="330" alt="스캐터플롯3" src="https://github.com/user-attachments/assets/d5a001f7-79c6-4f6a-a96a-436f09dbd1ad" />
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Scatter Plot3 <br><br>
 
 <img width="330" alt="상관관계" src="https://github.com/user-attachments/assets/30dfd44f-be11-4f61-9228-3ffd9485f989" /> <br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;좌석점유 이미지 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;이상값 좌석 이미지<br><br><br> 
