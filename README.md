@@ -11,7 +11,7 @@
 
 ## 2. 활용된 기술
 **언어** : Python <br>
-**라이브러리** : Numpy, Pandas, Matplotlib, Scikit-learn, Seaborns, Keras <br>
+**라이브러리** : Numpy, Pandas, Matplotlib, Scikit-learn, Seaborns, Tensorflow(Keras), Imbalanced-learn <br>
 **IDE** : Python3 IDLE, PyCharm <br>
 
 ## 3. 프로젝트 실행 이미지
